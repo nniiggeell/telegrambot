@@ -1,6 +1,6 @@
-python-telegram-bot=12.7
-telegram=0.0.1
-textblob=0.15.3
-tweepy=3.10.0
-wordcloud=1.8.1
+python-telegram-bot==12.7
+telegram==0.0.1
+textblob==0.15.3
+tweepy==3.10.0
+wordcloud==1.8.1
 

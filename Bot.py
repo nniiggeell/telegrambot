@@ -1,5 +1,6 @@
 import Constants as keys
 from telegram.ext import *
+from telegram import Update
 import Model as model
 import os
 PORT = int(os.environ.get('PORT', 5000))

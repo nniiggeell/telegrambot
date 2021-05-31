@@ -37,7 +37,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path=keys.API_KEY)
-    updater.bot.setWebhook('https://yourherokuappname.herokuapp.com/' + keys.API_KEY)
+    updater.bot.setWebhook('https://tomatinator.herokuapp.com/' + keys.API_KEY)
     
     updater.idle()
 

@@ -45,10 +45,8 @@ def input(text):
     df['Polarity'] = df['Tweets'].apply(getPolarity)
     
     df['Analysis'] = df['Polarity'].apply(getAnalysis)
-
-    sortedDf = printHistory(df, True)
     
-    return (str(sortedDf))
+    return (str(df.at[0, 'Analysis']))
 
 #Clean the text
 def cleanText(text):
